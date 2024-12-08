@@ -1,3 +1,4 @@
+# docker
 dev:
 	docker compose -f dev-docker-compose.yml up --build
 
@@ -9,3 +10,7 @@ test:
 
 test-down:
 	docker compose -f test-docker-compose.yml down
+
+# linter
+lint:
+	golangci-lint run
