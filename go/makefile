@@ -14,3 +14,7 @@ test-down:
 # linter
 lint:
 	golangci-lint run
+
+# ent generate
+ent-generate:
+	go generate ./ent
